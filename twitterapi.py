@@ -32,7 +32,3 @@ df = pd.DataFrame(data, columns = columns)
 print(df)
 
 df.to_csv('tweets.csv')
-    
-
-
-
