@@ -17,15 +17,22 @@ auth.set_access_token(access_token,access_token_secret)
 
 api = tweepy.API(auth)
 
-public_tweets = api.home_timeline()
+# public_tweets = api.home_timeline()
 
 
 #for tweet in public_tweets:
  #   print(tweet.text)
+ 
+keywords = 'oscars'
+limit = 1
+ 
 
 columns = ['Time', 'User', 'Tweet']
 data = []
-for tweet in public_tweets:
+
+tweets = tweepy.Cursor(api.search_tweets, q = keywords, count = limit, tweet_mode='extended').items(limit)
+
+for tweet in tweets:
     data.append([tweet.created_at, tweet.user.screen_name, tweet.text])
 
 df = pd.DataFrame(data, columns = columns)
