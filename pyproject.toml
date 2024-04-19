@@ -23,6 +23,7 @@ joblib = "^1.4.0"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.3"
+black = "^24.4.0"
 
 [build-system]
 requires = ["poetry-core"]
