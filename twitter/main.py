@@ -6,7 +6,7 @@ dotenv.load_dotenv()
 
 
 client = tweepy.Client(
-    bearer_token="AAAAAAAAAAAAAAAAAAAAAKagswEAAAAABA1xjIhzaC9Jae8orxIoEhUZZ50%3DDq8JAXOELa0WAbfMcMeSanrZ3uTnaOb2Jhxhw2wgoaPiXXmh2l"
+    bearer_token=os.getenv("BEARER_TOKEN"),
 )
 
 response = client.search_recent_tweets(query="context:12.706083845846597632")
