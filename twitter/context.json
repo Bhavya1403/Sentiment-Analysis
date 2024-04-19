@@ -1,36 +1,38 @@
-{
-  "context": "45.781974596157251587",
-  "entity_name": "Government/Education"
-},
-{
-  "context": "30.781974597226729473",
-  "entity_name": "Non-profit - Government/Education"
-},
-{
-  "context": "47.10044311823",
-  "entity_name": "United Nations"
-},
-{
-  "context": "88.10044311823",
-  "entity_name": "United Nations"
-},
-{
-  "context": "131.10044311823",
-  "entity_name": "United Nations"
-},
-{
-  "context": "131.847878884917886977",
-  "entity_name": "Politics"
-},
-{
-  "context": "131.1068583660914266113",
-  "entity_name": "Government institutions"
-},
-{
-  "context": "123.1484601166080081920",
-  "entity_name": "Russo-Ukrainian conflict"
-},
-{
-  "context": "69.840159122012102656",
-  "entity_name": "Political News"
-},
+[
+  {
+    "context": "45.781974596157251587",
+    "entity_name": "Government/Education"
+  },
+  {
+    "context": "30.781974597226729473",
+    "entity_name": "Non-profit - Government/Education"
+  },
+  {
+    "context": "47.10044311823",
+    "entity_name": "United Nations"
+  },
+  {
+    "context": "88.10044311823",
+    "entity_name": "United Nations"
+  },
+  {
+    "context": "131.10044311823",
+    "entity_name": "United Nations"
+  },
+  {
+    "context": "131.847878884917886977",
+    "entity_name": "Politics"
+  },
+  {
+    "context": "131.1068583660914266113",
+    "entity_name": "Government institutions"
+  },
+  {
+    "context": "123.1484601166080081920",
+    "entity_name": "Russo-Ukrainian conflict"
+  },
+  {
+    "context": "69.840159122012102656",
+    "entity_name": "Political News"
+  }
+]
