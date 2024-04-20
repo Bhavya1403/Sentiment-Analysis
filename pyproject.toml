@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "sentiment-analysis"
+name = "Sentiment-Analysis"
 version = "0.1.0"
 description = ""
 authors = ["Viraj Shah <viraj.v.shah03@gmail.com>"]
@@ -21,8 +21,8 @@ joblib = "^1.4.0"
 twscrape = "^0.12"
 pandas = "^2.2.2"
 tqdm = "^4.66.2"
-lightgbm = "^4.3.0"
 langdetect = "^1.0.9"
+xgboost = "^2.0.3"
 
 
 [tool.poetry.group.dev.dependencies]
