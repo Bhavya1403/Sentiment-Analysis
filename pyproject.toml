@@ -21,6 +21,8 @@ joblib = "^1.4.0"
 twscrape = "^0.12"
 pandas = "^2.2.2"
 tqdm = "^4.66.2"
+lightgbm = "^4.3.0"
+langdetect = "^1.0.9"
 
 
 [tool.poetry.group.dev.dependencies]
